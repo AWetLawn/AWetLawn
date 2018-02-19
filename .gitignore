@@ -57,6 +57,6 @@ target/
 errors.txt
 */tmp/*
 log.txt
-*/game/saves/
+game/saves/
 traceback.txt
 project.json

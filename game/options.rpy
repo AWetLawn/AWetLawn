@@ -18,7 +18,7 @@ define config.name = _("A Wet Lawn")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -29,7 +29,12 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p("""The story, all names, characters, and incidents portrayed in this production are only partially fictitious.
+All identification with actual persons (living or deceased), places, buildings, and products is intended and should be inferred.
+
+(c) 2018 deletescape
+
+Logo created by Lumiq Creative
 """)
 
 
@@ -47,7 +52,7 @@ define build.name = "AWetLawn"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
